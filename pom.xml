@@ -11,6 +11,7 @@
   </scm>
 
     <parent>
+        <!-- 2.2.1.RELEASE -->
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.8.RELEASE</version>
@@ -73,7 +74,7 @@
         <dependency>
             <groupId>org.jadira.usertype</groupId>
             <artifactId>usertype.core</artifactId>
-            <version>5.0.0.GA</version>
+            <version>5.0.0.GA</version> <!--7.0.0.CR1-->
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
